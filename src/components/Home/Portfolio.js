@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
-import AnimatedLetters from "/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/components/AnimatedLetters/index.js";
+import AnimatedLetters from "../AnimatedLetters";
 import './Portfolio.scss';
-import websitePortfolio from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/This Website.png'
-import councilWeb from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/shelley-website.png'
-import sortingAlgo from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/Pathing-Algorithm.png'
-import pcStore from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/text-base-pc-store.png'
-import curiousAI from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/curious mind.png'
-import speakOrg from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/speak org.png'
-import Gallary from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/components/Home/ImageGallery.js'
+import websitePortfolio from '../../Assets/This Website.png'
+import councilWeb from '../../Assets/shelley-website.png'
+import sortingAlgo from '../../Assets/Pathing-Algorithm.png'
+import pcStore from '../../Assets/text-base-pc-store.png'
+import curiousAI from '../../Assets/curious mind.png'
+import speakOrg from '../../Assets/speak org.png'
+import Gallary from './ImageGallery.js'
 
 const Portfolio = () => { 
     const [letterClass, setLetterClass] = useState('text-animate');

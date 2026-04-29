@@ -11,7 +11,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './About.scss'
-import Headshot from '/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/headshot.jpeg'
+import Headshot from '../../Assets/headshot.jpeg'
 import Particle from '../Particle';
 
 const About = () => {

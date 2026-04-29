@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import './Contact.scss'
-import Interviewing from "/Users/hamzakhamissa/Downloads/Sukrut-Portfolio-main/src/Assets/speak org (1).png"
+import Interviewing from "../../Assets/speak org (1).png"
 
 const Contact = () => {
   const [setLetterClass] = useState('text-animate')

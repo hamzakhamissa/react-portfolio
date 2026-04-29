@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Home from "./components/Home/Home";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Navigate
